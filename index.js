@@ -246,7 +246,7 @@ yo.update(element, newElement)
     yo.update(element, template())
   }
    function openNewTab() {
-    var url = ""
+    var url = "https://goran2009.github.io/kviz/"
     var tab = window.open(url, '_blank')
     tab.focus()
   }
@@ -303,7 +303,7 @@ function footerComponent () {
   function template () {
     return yo`
     <div class="${css.container}">
-      <a href="https://github.com/GORAN2009">
+      <a href="https://github.com/goran2009">
         <i  class="${css.icon} fa fa-github" aria-hidden="true"></i>
       </a>
       <a href="mailto:goranstadic@gmail.com ">
