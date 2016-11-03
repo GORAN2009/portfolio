@@ -105,7 +105,7 @@ h3 {
    .arrow {
       position: relative;
       font-size: 2em;
-      color: ${GREY};
+      color: ${BLACK};
       animation: bounce 2s infinite
    }
 
