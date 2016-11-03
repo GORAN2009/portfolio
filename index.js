@@ -29,7 +29,7 @@ document.head.appendChild(fontAwesome)
   LOADING DATA
 --------------------------------------------------------------------------------*/
 
-minixhr('https://api.github.com/users/GORAN2009', startPage)
+minixhr('https://api.github.com/users/goran2009', startPage)
 function startPage (data) {
   var data = JSON.parse(data)
   document.body.appendChild(template(data))
